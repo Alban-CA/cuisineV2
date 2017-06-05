@@ -1,0 +1,219 @@
+
+/*body{
+    background: url(../images/plats/macaron.jpg);
+    min-height: 100%;
+    padding-top: 30px;
+    position: center;
+}*/
+
+a{
+    color: #000;
+    text-decoration: none; 
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-left: auto;
+   }
+
+ header nav ul li { 
+    display : inline-block;
+    padding : 0 0.5em; 
+}
+
+ul {
+list-style-type : none; 
+}
+
+nav {
+    padding: 0; margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    list-style: none; 
+}
+
+nav li{
+    background-color: grey
+}
+
+/*agit sur l'element "a" contenu dns l'element "li" lui meme contenu dans un element nav*/
+nav li a {
+    display: block;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+/*agit sur les elements "h2" enfants ou petits enfants d'un element "section". */
+section h2 { 
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+    margin-right: auto;
+    float: left;
+}
+
+/* agit sur l'element "p" */
+p {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin-right: auto;
+}
+
+section h3 {   
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-right: auto;
+    float: left; 
+}
+
+.image-container {
+    display: inline-block;
+    margin-left: auto;
+    width: 25%;
+}
+
+div p {
+
+    text-align: right;
+    text-decoration: none;
+    color: grey;
+    margin-right: auto;
+}
+
+section p {
+    width: 75%;
+    float: right;
+    text-decoration: none;
+    color: white;   
+}
+
+main section {
+    overflow: auto;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+main section .image-container {
+   width: 25%;
+   float: left;
+}
+
+main section .image-container img {
+   width: 100%;
+}
+
+main section .summary {
+   width: 75%;
+   float: left;
+}
+
+main section .summary h2 {
+    margin-top: 0;
+}
+
+.logo {
+    width: 55px;
+    height:25x;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+}
+
+.home {
+
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+}
+
+/* agit sur l'element dont l'id est "searchbar" */
+#searchbar{
+    position: relative;
+    width:1040px;
+    height:auto;
+}
+
+/* agit sur l'element dont la classe est "formulaire" */
+.formulaire {
+    display:inline-block;
+}
+
+.formulaire .champ {
+    width:600px;
+    height:35px;
+}
+
+.formulaire .bouton {
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    padding: 0; 
+}
+
+.loupe { 
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0;
+}
+
+#contenair {
+    border: solid 1px rgb(0,0,0);
+}
+
+#contenair div{
+    width: 930px;
+    height: 640px;
+    border: solid 2px black;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#contenair div img{
+    max-width: 930px;
+    max-height: 640px;
+}
+
+#wrapper {
+width: 930px;
+height: 640px;
+overflow: hidden;
+}
+#carrousel {
+width: 930px;
+height: 640px;
+overflow: hidden;
+position: absolute;
+}
+#carrousel img {
+display: block;
+float: left;
+position:relative;
+left:0; 
+
+}
